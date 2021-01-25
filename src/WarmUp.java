@@ -1,6 +1,5 @@
-public class WarmUpExercises
+public class WarmUp
 {
-
     public static void main(String[]args)
     {
         /*for(int i=100;i>=0;i=i-5)
@@ -18,21 +17,17 @@ public class WarmUpExercises
             {
                 System.out.println(i + " - Java");
             }
-            else
-            {
+            else {
                 System.out.println(i);
             }
-            System.out.println(timeToSki(32));
+                System.out.println(timeToSki(32));
         }
     }
-    public static boolean timeToSki(int a)
-    {
-        if(a>30)
-        {
+    public static boolean timeToSki(int a) {
+        if (a > 30) {
             return true;
         }
-        else
-        {
+        else {
             return false;
         }
     }
